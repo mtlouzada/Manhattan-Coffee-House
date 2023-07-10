@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <title>Cafeteria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/cafe-icon1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Lato&family=Oswald&display=swap"
+        rel="stylesheet">
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ms7qBFiCappLhip8laUhOQcL4SdgisGGwRfWydvv7OQXqhx3gfLcJYgigPkIRyNXCZMgW1r2ZP8UxOhsMwiw8w7AjgfIlFIRXzfE0LLjkvHTKHHeVwNWDM9xLJtVEmW9BppKfZ9-dAY7UjQ36_kIsM12NT3UBJEYOnqlP_fs80boiTNndI6-BmC6bpFVnuyhf30DMWGeq_1WTP6K2SJdlyvxCfLaSV-X0X0-mlkiEK9QynDY8LCe01vwIPdEM1QXxy3BUtAnY_Hebm7Rz0A4CydoBiQg6fs5Vl81ZM8M_32uXCbx8lvY5PI0wdsUURPajEOTcpv3AfnBpdEbEv1IuTAwdIGdDvG8l3Eg4A6a0WdgprrBuEqX_grbAb77WV9tKzoHFPM-yiNvDTs0vSXW-FeMUEZAKOa1VjPsk50y8uMy2OpZkN0_6ODWkBIFJnBwfzlpI1gRLcJ7nS458cLjDZb0Rn7s_aMKVQSZ2bBfrGc5QNtjFARPLAGWfKJSTEugBvqm2VbdZ-L28zzYM8z00HYzMDJevuA3gan2MCNCfeBvUQRkvctLgAjfIcaL74R4sfIkw0HCC7NEzub3ELhnkcdQtskLUX5_howHV84oi-5aIWQbJ-YY2ZlGlwHKWi0xThM7_Xw17697WJsUnKkvS_FoIRZEWbr6l0CfY4SAG_sPEzWZsR-c8SQ7KzksGqTPJOVKHb80B20ruoNdV1Y9SlGSFte0DG20xk54eFSN_lAU1hkpMQcNSz386ugnYbcuOmHnghAnEkyBxV2akMJJ5V7926E_729KY1XfyHTocNZHQlJIG2x9avtIOGXzlyXc94a0lMuf7mBpwt7nq1PsAIIDV2ZDLuEBB5lEn1QkADrEtML6-f8tMdhPmWOiSm-JW1k-teqk-rklAXq23wjNQL-vmjYcyvMpAVRMuwZBGDFKAqgIgE3-QOx44xslCb706HNf2sSuCRenNIBDJCzRcUGEwHfnQD4hrDbd41HqM1CstjJR7CRtJ2czs8UVNkqVkyFBIIxMtlIf40KRZTv4a_Eqk-TAgfFrrUjgycnFLoDaElMe7vPO3eVKWd9JNT7iZgfu54DrouUuZ7xRlB7A6Z51V2V-ZfBmks2Pj-DHlxBtrZT3-ydzH0tC-xots11F-FlwTCS3WxRXA8ZseudbvEzwD4bloaA_ZNA52fXl1i-DQqKrpB94C19zdiil0PkDJjXU7qNzhJ_EB8OBgpgNsixqv0MPOXwU1rizJNqSK2fbmk9s_orpE3olQpoW_qxWGBeVoDHRaZ48KL39g1Id06MoU8xgbl44iHGuP6LVoWdwRrrGlJJdGlnBwdhCsS305RShGz1jmvekK0cD4JbHe8J1uUfpBpqai3HiOepHbkIFr--tUUbV8EIQrxBfH1LTC6SUw1rdpEukTLnfREmugc8bvREKEMD_rrhayMhNcOw82RXoNNiNMjnFJ-9NI5a39Lhn2LSsY3jXJElv07RZt0wYid3RxRgEcy7uO9OkVUrNFfmKLPNay3wmTKIbFMCeDCL-Uq08h3paBAZej6GAHIw2GeZvUb4yHZLcA3HYQM5Z7oFqvDOejT2gYaCIiP8zMXhhDRdtc80FjI7QQfSOdsX-A2LndzI64E6QujdsYWB8j7reBV99wXV9sif7e_5S" nonce="ee181f400458aceb66f6766583923574" charset="UTF-8"></script><script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ki_N1gMWeSMSHKnDI_KgjVPa7sndWKmIk1SK9qX8TJA4yJXicFXSdQulbTH2YrhB_YvZ-zNBHpoRLojyqJIos2EaSxHizTE8WDhL4_mgaMGvzkQQVFvSKnUQBYqLJ0IuDiTla_Z4d-aCIFvy68kga9G2ujMtfYDj483BkkX8TYXfHMlSNzvQt8nGsSVeTM4aGT9_iXloIpMMZ3eLmm9t5cEd-5392FazshQOsv4a7jZQ_HffBBitY5uQ5oP8-UtJoBburLwNU9MvncW7IiZVL4xltqvJj9ja5tuTb9pBs9LMv9lv1Pc0H348J_haqF3kgKAIrLmGPgqw85cxH_s-9tVEft8pZ4g0xsAs0g9Kp0HJbsHcXWb9_Ws15HxCvvjTGKIeuZR2cbR3Ix3GzKTax2YIU_oyXku2fZ5xZtvRJTvVKmIQmb-nWqU7KDpWqkELUC7tsyO7Il-ot8DYoNk4cO5atSRphKDNg4CAWFGC08RlHs42x70dfFsG7SpLJJ2xUiDf2z-IEKnLoVvzrZxYG2m7ovNeW30jGxYKw0UOT6dWyGGfXvAo76kOVDG3P0dCc1x6hOoL-_LTRpb_Rz0gbPBM0s10CqXJigglKX-COWTsn1rOL_ORcTjanPUA4v4GVJvgZdX2SzX7ZwGwDeYC6nw264cioQ7wRH2yxfkCuKJmT-W4qYTsoqrhvMMLI6XUtb28bzCtzMipo8NIN4TfvPlM5qkHsQORH93loKOqqtCdrEW3VINUQMN3yUBcIl4l0RTmz8Yvs2jpATJPFBks1RANjARgFAVFTL0CQfMJYthDqcH1D8NwuEYwzg8DxUnBL7QvGiMDjHG3w8HbvLCcvqAE_OSgflxctCcAmgJbPbDQ02gYJTYRdKNPxCJRptzB_01A8jIsLl7E-4E4aC90_hj-3IvktaiXxQTmtI1Bvxdwicj_Ma9yqGFRY8oKd2hFByp5jxfp83H1V8czJHpfYGT9YJ9LdCibws978DBccRXxubQ4xP0c2GwRsrt7PaTH4VrwFthihxshX4zeZztlWeuzbF73GpHW6x-B1KH_GT_eaYdzFT8jeYa5pP21qey91CdedVZn5Is2f_hZo_Xhcxfv9-aJx1zKAIlFcik_nO5k_A32J9wTz0N8YTBDDCEgPqvyD0ULL-qVtfr-UxB1hNvF-OzqzVASe1hsesDJHzLN7zN_VpHAEQOJXpQGz27-FWVjOzVddsq4vf3BM30tsop4OomBvgy3VfqLeMR7p5mxYpdDLZxWpi6KWZeGqhOqIqj6OBJc3est0my-Uwi4t2vqivwrTnFTjcTQB6Z5Kvy3tSBi0TckXvG59cM3ZGhR39zt51CwK8bkTAfwjDdQFkTG6HXlIn5t_g5gA-9owFy77L8rvMi1iMSU6KaY1KRci9OC63L0jJve7zSu7reWGUv2teADXDyxGLy1a8-ZCKSzo9zId45iNWKPEB1v8tmrggff5xQSL93M0QSRbp1JFLDpsdp2j4KNL7TopyFzhWdY9VLkApPZFfFMkN03F3zGdSWzUHmBPVt2ilf5hIJ27n_ZWLsbpVS5dh1t4NmNejSEYwKEf83a9UUdKnrTRUrx_NYBtHrgApXSzIQh-YVZTEVlO8nEOvXdticC6jeH8VvgZq9aH538_K0-geVrI40Z"
+        nonce="6c2ff14736724107a9597771bd470f76" charset="UTF-8"></script>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=436aMEv8psT0RFMX-MlCa3LFGYSXAw8dI4yaNBpCN1x42X9-Em6g9jxwJ5oYvt4zF5SxDXidQ0sPXOqWQMrv3CVLEfQ9RalyG8WkjfyiO0mK7QmbzZDhGEn4azRTLbhZzEif5x4RQ8PFnaezRd9UJGZ6qzOs8ejkm9nAMEmu8L4pYP8k8vOOiavbxsdWh8wjcIn2iemm_SPJD6vFdcybRrh2iDPNCe3F_O7k8rjp3Jz5GXvveOYubAmeyiVGQa0sEgqQKCZbtahg__lhCgAi7ucsxHGFKJrdt7eOoJrVSQ0DUxDeN7jMTrLbJShClvFzuRItdjaWdkfI-3tDIT8iwJk6tgCz1cxSaGF44rsUvNQ1xkYMZllhObIPnxbaqJLCz3DZIhsjvg2hOHiX8LqZ8DLtXGSrczRC9jPRLt3g-A5WhVjYoNwxhsN0XRyHbBlpiudZjFitPhz82IUz4bQHHfpMrme7KWVQZw01DZZVyGlQCpUb_5lHp_Pr_KGzZVQ4kkLfemQjsg12AjTznMamqsBf0YP7yeuzjxJjjzGcIVC19gtcD1ORJ7Xu3aY0_Q5E2qBE-l8xUat5RVvsCE5W47MtAbvIl16fZ5UNV6IIcylbG2HPOpPnrz_cp3xq5RC09eJLMFXnaj5foKQXHC8c_x1loj1yKdIqE0CpQ01ZwBpwkC5fOKGQVHt9YzusFIP9YAD1OqGAaffrweS5N1iuvLiSZ142cgUpaIR_MzyHL17-o7j0su8RjMS2f0U8C39CxtX43yZn9J1W-UpG10KerDo13AQJ_UN7EyVIA5OCXZqeANWK8pp19QYIa-jPFG_yDndzvOHHwOAxLajaLWgD8lKN6fn3ebyM30V0ioTI7nakDf65pJDG8sa3iT5Bc4R6izI-Pl67PVC4J3Bpikfjyf5mReXuCmyrV5HG8JiHAEdznPOEwuZrm_rfcppZZQi6LvniJSt6aCeJ9H45aGnH58sOyBcJ-gRIBzfL0G_TFC9JHRPGSYY0tBCG0PcexjW-XCj8jvMrGStfYIO1X8F0AF5Q-wXCCwX74P6PwTXO1qvl5BOVu-SBB43fy2vMkMrtzBBInyPlzvMhDGfAfLef49WXkXP6BzDLWvzRc39URIZNGUpcOn9nlJjK3siPlnVM3qpAyZ7tysgwkI_QlfXy_ZJuqv6oJ1MR1N6qGDDv2KGge-NWOhsxahGdeHJ4piGvydmYYSF7g8TOrClDuCdxItdUusJmW-klT7bpLN9EUsEmVgNw2coVh8CDMeHmjzqJ5m8OD1_ZYcwZjKAZeSIOQ1j0SOLbu5wV7t1GAvrWMcb7jV8-Om7ZpyrVNfuyO-Qxe6TP1yKml5mcNdUYrmoIlSQwGNCSzMkABRon_SS1OUOX89_eQxy0Mm8VJQOoKKhtR8aeyf0vNOAUA3-DTSoNnsRoPUJkZukyS3Qaaue05wy4WGnQ83pbsUsZvWarWWDgOPNn1Ig1d_ycDtNv_-Lvyhf6Ab0ifHxykrWAV2WRtzddrAEzE48Hjl2QI2wUD-iUEi1m_sAfp08mKLh_wFAKdK8X2etLMQYl5CJWEQ_-F53h0Isa8AFpI19R9tvHWaaQSukCLSEluGqYh1C9kPRMIQluSyyRAj4dcFENqXIJMlzt_tDIy86GfiBwKIuJIOKy"
+        nonce="d43bfde2ac2e92f2b63c3101e9561ba5" charset="UTF-8"></script>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8rSijT1qnr9W3LKK6W7vV3BPd0aRiYinv8yRIgxe8J-0-rLGwAUaofSL3rcq-9lHYucqlEvlVY-AC7qpa92qqW5lbMnVh53OycJyiTjlGr80QOVRA2eLpwnybYNhcxeylQoJE_X4aAn67RG-1d-U69Yls4rfL9kj2A4hnhKUsbzVPnoY2u0pVPmbnU-BXqmDuanfRhew0qFcEUBcQhL6FFhrH5PbLepp8CkyDhxHd0BnMtZm2zOLi6mEmXyL8Utc3-HGy65MovvYZcp2DkA6Wa8qXCyT_2fLUu4Z-23tZpo1cdewCj9fO1GLNvcphM3KXgjJNWzUwSBuqBpQWGAEh4fg8HfqbrZVFiauvDU_d8LJfwaOfC0FvNgcMzmInrjph2qSz5YijUi0hvsC7IKA_68RJM-opqsv7BRJOidLF05f7ekCnvTZIj1qoVls6x7tnCKAR0utW7aP95jpKVcL6ifGmdkBOJ273_GGYhSDsVc4d5YevwmZy14Q7el35i0yiE_HNTu85C7PP5ucit332cIoiSKPuSuhcGLTtDmPHxnl1_hisyEIz0i8D-60zGGSmW71chnLraYaS0wWWtpxEhesg8tQNqeagw9madPiRHmBi2V3FK1n5uttpRN1nJScSl23iqLPvUnNYnUNWIhdFPEyBAvswVSsuZ7fOq_3mfkiM-TSN3L_zDfikkHUO1Saoo_WsBmxUaMCebmNhmysu5dMEDR1PE3GfErY3fJTqwAKwh1OXrh9cS1JZ7-ZGmqmatalKslK1HvDcyGDDUVU-Db6xFGA8Q3LH1J1NR81qdHoyJpTJNcTw0moGcRKpLE1N2D99V9YZeWfi7pkn5bHePlpQnbu0OqL1zQ63kFzCvqD8gfZBzOeFg_9FxRVY_bGUPEjXDwNOQMVuwyJyCtBAvXSqeJtu9iAbdgyY5zZ2hIdYgC69M8gieKuFeNmyP6k9Z3nqthxcDSYYdJL7UTLc_VvlackgZteZwyLCf_yHR0qpJ0jmzoMOE8XGFRHerk1CdARCNmdMfjXU-QTNjEp8K5rzDcYSiiwerZP9gHeCJEvVf71rBj4Bf6ax4bWW0JQik55bJR7cc6qA4KGlYRQBZKdJwM4UrvswuPvtx7VkEKzztl8AayGzt-J7IB6gd4npQ-GKlicdVMDl3gdaqAUrBUBaxqEP6KeCOyKTgyXeTmqDlWmEzIIIyYJqbmUUK5PEkgDYO97g2GDXPfTtALB_ijODGhwhxOP0S_fjufPyC5TgRMVAyTmhpyNl1JWNKWL22tMUsvd6HcdNQUJeHfXqYD0E1402NuTe8Qdc7i6lKfb_RfR8O3Al0EHChdXf9FHCff_yziYgzBDAiGjoEc_BWtAI2gWugHQSttbyro67n_LWGMGabhB4eWJN_isUOiJWUESKi4GfrWlb4aXeGdJfbFAJk4O4YDTwQjpvHJXUGX4Inzt0KV-RhFkhrX-fLzVLnMahO4rVox-E-Cg_zhzYiXljWo0GvEQpCvgK6TrZ4_PYdnM1GL0N4x3aIjTyvHlssRo-KkbWnpLgpvMJ4p408T16K4Ryk8N6Z7IZHJ9sQh5XfGJJ_odwDk8qxw6eFw6P6HE8LTI9I0LMXzjG0AucQqt6waM43b-twuXN3q37FGFk1-igCgEppF7G9GY6dkX"
+        nonce="05bcfb1a685be0eff730cc9736a51ce6" charset="UTF-8"></script>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ckv4UxLbV_zxXiEj08E_IxJ3PYxP6r038_EsS7AX2St48VIZSd8Vf5XGosDGaJUSbanC7FGr-uFX_wNO5CYKHiLySVcVfvajAtcoNKL5ODuHHXHOVFmcaRAxkpEyv0A4oxN28bYcuU_HvuYcaLBTu8UqlUEN9h4zcrJqcZm4f43HA8B6gll-bYH8yF2MUYtJMcXyIK__YnqsR8dMudBMULg0x1yKVwle5m9e9BcAUubF8TW90QoJzdC40lv6GpuMGApDWsNSKVmRuok9AV7Qj94vjD052Iy7cXlU4gyWmmTpZl-L6qeMyXV7texbM_wEFNbNASGpl31VrhkR9ZB5xazEPUDfJVoJXUOGNjfVhc3gb7Rpi5r-07G5krRbr8JecXI4Fjs4dJ3z4PiLy1-iu5Ggku4_bdIp6wfZ9dd7PEJEL9oI4-ausDKc1EsM4Rj9P-jGFtNhcnjSCos8kat1idnIRwtC7k7x99VkdMC1wT7a6JepZIqigoAH4ToD2kb6CIBf9EiR6DJRxo0q1I7-vkGpStO6iCedkZF7-wKNhBAqkxEMMyEU3zU8QcOD0Uzbg5zAzmR2NhWweh9e8ODYNne9ZD3qkcJrVvCz0GMJCwqsQqqfFMV9Iy8exPO6zYRAdOCTOQYaJB66QengsX2ZOEqk73zMC87UVMzIDjrXkCNIxKubm5l3c4qi2wJSv2rInVGuu11VdT1bUu0wxuuQ5Vgx1cEZv5QpxIHiF7O1zobhaYrTy652qZcVKul-24ny3A1MOJbzwxte6Nlp98y_9Fp3eWWz6d0fgDkh-GIWxzkeW1EUf_Kzz39hbCpCfwnq2zWRtrScuL_SzaR8OmvrSD5zF0GWR92OziKn_Npke3M2eZiCOXSbTsN7LdyJsKZvNOKdlDq3I2YeNbUjkvmP-2avm9OOvQOXJjsEoX4GUU6UCAa7Z_SRzat3CIZIfKAF-SXjX_ul10Cm3d48HGzHe3S2zzr0IwAtJdplNRFn6q00nTF_QNr72y8zdKUsQHu0v1R2TVsm8hxDKRnaqpCeR4eDvZI3ZGXRgzlZNRJ2dPHXuYZFfd2GXAKKE5-rKRVFr9Ie9mALRr4sGb0Jltz0FeIbiAmVo3kMjNUt_lAQe5yRYyaeOTiA6sxBidCNcjw5BmHbBF7G501uarhrjMPFRak3nDhknx9AOX3EkdUrlHgOV3wgtsFQuoZXOTUduvd1-U5gZZZ3v8M1LxgeB78Zc9jlrmyagP9X2W19R7sHlcVSOkx3DIB5MbPqETCwYKM3cd0T8NuJyVBZs94tGWCoPvj8bLVW1MtcxCLgDoHFK9AFHYg1PbaeEAgAjThtcgWSt2fnVyPYvk1QbGRfPtyg1GU4eH_HiA9yI3ITdYXVgkcb1MpyOKAxAg5jCYJAednpL1KsYv-Nlv-r59N__nFRYF2aqqNH8PJtq_D7xRnVcnz4Wv7Xwv95VNAsMBnKtCGM4BCq_Or9h-ziUV4HIQSE5dY2GBUOdjGDzjy47HkgDpOfUEzArNPAmt6P_ycezGdqQWN5zNov_FXXFQm7yj-PNqfdoxBsuBXRCeTY8mOyExZhIyFkB0k9YJaeQ6-AyeOynb_cLc83-QmSA-QvP39Be8eGNtpN6u_94cD2ZXTOvgrvpW0Vw68ZvtLnqws9Ovw8"
+        nonce="c0dd023bfe6e51828f4c5d10d41df725" charset="UTF-8"></script>
+</head>
+
+<body>
+    <div class="conteiner-menu">
+        <div class="subcontainer-menu">
+            <img class="img-logomenu" src="img/logo.png" alt="Logo Cafeteria" title="Manhattan - Coffe House">
+            <div class="links-menu">
+                <a class="link-style" href="#informacoes">Informações</a>
+                <a class="link-style" href="#contato">Contatos</a>
+                <a class="link-style" href="#horario">Horários</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner" class="container-banner">
+        <h1 class="uppercase">MANHATTAN - COFFEE HOUSE</h1>
+    </div>
+
+    <div id="informacoes" class="secao-informacoes">
+
+        <div class="container-texto">
+            <h2>EXPERIMENTE O MELHOR CAFÉ DA CIDADE!</h2>
+            <p>O café não é uma simples bebida que foi preparada por alguém. O café é
+                momento e nós mostraremos isso. Frases como “Que tal tomarmos um café?”
+                ou até então “Vamos fazer um café?” são demonstrações de que um dos
+                momentos que mais reforçam os laços para com o próximo está finalmente
+                por acontecer. Fraco ou forte? Com ou sem açúcar? Você deseja açúcar ou
+                adoçante? Estas são frases que ouvimos em vários lugares. Em quase todos
+                os locais onde há pessoas há também café. Parecemos intrínsecos ao café.
+                Aqui na Manhattan serviremos para você com muito carinho o nosso querido
+                e amado Amaro’s Coffe diretamente do nosso cafezal em Minas Gerais. Para
+                todos nós, café é coisa séria e merece todo o cuidado.
+            </p>
+        </div>
+
+        <div class="container-parallax2 subtitulo">
+            <h3>Um bom café é motivo de alegria!</h3>
+        </div>
+
+        <div class="container-texto">
+            <h2>O QUE É O CAFÉ MANHATTAN?</h2>
+
+            <p>Segundo a Metodologia de Avaliação Sensorial da SCA (Specialty Coffee
+                Association), usada no mundo todo, um café especial é todo aquele que
+                atinge, no mínimo, 80 pontos na escala de pontuação da metodologia (que
+                vai até 100). O Café Manhattan destaca-se nos atributos fragrância,
+                corpo, harmonia, doçura e sabor, nesse caso, possuindo sabores e aromas
+                que podem ser frutados, herbais, doces como caramelo e chocolate.
+                Podemos fazer uma analogia com o vinho, pois o café Manhattan também
+                pode ser apreciado por suas características sensoriais e não apenas pela
+                cafeína. Através do excelente padrão de cultivo, cuidado pós-colheita e
+                da torra, você poderá experimentar diferentes e deliciosos tipos de
+                café.
+            </p>
+        </div>
+
+        <div class="container-parallax3 subtitulo">
+            <h3>A vida só começa depois do café!</h3>
+        </div>
+
+        <div class="container-texto">
+            <h2>CONHEÇA O CAFÉ GOURMET MANHATTAN</h2>
+            <p>As características desse tipo do café gourmet da Manhattan são muito
+                marcantes. O seu corpo vai depender da variedade do blend: quanto mais
+                “pesado” ele for na boca, maior o corpo. Quanto menor a sua pesagem,
+                menor o corpo. O nosso café gourmet é o mais bem avaliado no processo de
+                produção, para que ele não venha com nenhum tipo de defeito. O aroma é
+                bem perceptível e o consumidor consegue sentir nitidamente, sendo que
+                ele pode variar entre 4 aromas: florado, cítrico, achocolatado, frutado.
+                Essas variações são consequências dos grãos do tipo Arábica. Tudo isso
+                vai depender da torra, quanto mais clara ela for, maior será a acidez.
+            </p>
+        </div>
+
+        <div id="contato" class="container-contato container-parallax4">
+            <h2>Contatos & Endereço</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.11681455319!2d-43.36346792564862!3d-22.98273154058775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1sen!2sbr!4v1686438092548!5m2!1sen!2sbr"
+                width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="subcontainer-p">
+                <p>Telefone & Whatsapp: (21) 99999-5555</p>
+                <p>E-mail: contato@manhattan.com.br</p>
+                <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
+            </div>
+        </div>
+
+        <div id="horario" class="container-horario">
+            <h2>HORÁRIOS DE FUNCIONAMENTO</h2>
+            <ul class="lista">
+                <li>
+                    <h3>SEGUNDA</h3>
+                    <div></div>
+                    <span>FECHADO</span>
+                </li>
+                <li>
+                    <h3>TERÇA</h3>
+                    <div></div>
+                    <p>09:00 - 22:00</p>
+                </li>
+                <li>
+                    <h3>QUARTA</h3>
+                    <div></div>
+                    <p>09:00 - 22:00</p>
+                </li>
+                <li>
+                    <h3>QUINTA</h3>
+                    <div></div>
+                    <p>09:00 - 22:00</p>
+                </li>
+                <li>
+                    <h3>SEXTA</h3>
+                    <div></div>
+                    <p>09:00 - 22:00</p>
+                </li>
+                <li>
+                    <h3>SÁBADO</h3>
+                    <div></div>
+                    <p>09:00 - 22:00</p>
+                </li>
+                <li>
+                    <h3>DOMINGO</h3>
+                    <div></div>
+                    <p>12:00 - 22:00</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-rodape">
+            <a class="botao-rodape" href="#banner"></a>
+            <p>&copy; Manhattan - Coffee House - Todos os direitos reservados</p>
+            <p>Desenvolvido por <span>Matheus Louzada</span></p>
+        </div>
+
+</body>
+
+</html>
