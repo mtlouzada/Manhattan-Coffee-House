@@ -5,7 +5,25 @@
     scroll-behavior: smooth;
 }
 
-/* Menu */
+h1 {
+    font-family: "Fraunces";
+    font-size: 75px;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+
+h2 {
+    color: #c4a47c;
+}
+
+p {
+    color: #666;
+}
+
+span {
+    color: #f7f7f7;
+}
+
 .container-menu {
     display: flex;
     align-items: center;
@@ -125,26 +143,6 @@
     line-height: 30px;
     text-shadow: 3px 5px 4px #000000;
 }
-
-h1 {
-    font-family: "Fraunces";
-    font-size: 75px;
-    font-weight: 400;
-    color: #f7f7f7;
-}
-
-h2 {
-    color: #c4a47c;
-}
-
-p {
-    color: #666;
-}
-
-span {
-    color: #f7f7f7;
-}
-
 
 .container-contato h2 {
     font-family: "Fraunces", sans-serif;
