@@ -1,5 +1,5 @@
 Projeto: Cafeteria Manhattan-Coffee-House
 
-Nesse projeto coloquei em pratica os conceitos da tag position e imagens com efeito parallax. Também implementei uma lista na página e um menu de navegação com scroll automático e suave até a seção que você clicou.
+Projeto pessoal simples com uso do efeito parallax. Em breve um display responsivo, refatoração ainda em andamento.
 
 Deploy: https://louzadarj.github.io/Cafeteria/
