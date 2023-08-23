@@ -29,7 +29,6 @@ span {
     margin: 0 auto;
 }
 
-/* Menu */
 header {
     background-color: #604829;
     position: fixed;
@@ -66,14 +65,11 @@ header {
     cursor: pointer;
 }
 
-/* Banner */
-
 .container-parallax {
     height: 50vh;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-
     display: flex;
     align-items: center;
     justify-content: center;
