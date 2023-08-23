@@ -1,5 +1,7 @@
 Projeto: Cafeteria Manhattan-Coffee-House
 
-Projeto pessoal simples com uso do efeito parallax. Em breve um display responsivo, refatoração ainda em andamento.
+- Efeito parallax
+- Site responsivo
+- Ferramenta Js
 
 Deploy: https://louzadarj.github.io/Cafeteria/
