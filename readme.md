@@ -1,4 +1,4 @@
-Projeto: Cafeteria Manhattan-Coffee-House
+Cafeteria Manhattan-Coffee-House
 
 - Efeito parallax
 - Site responsivo
