@@ -65,6 +65,10 @@ header {
     cursor: pointer;
 }
 
+.botao-home {
+    cursor: pointer;
+}
+
 .container-parallax {
     height: 50vh;
     background-position: center;
