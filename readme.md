@@ -4,4 +4,4 @@ Cafeteria Manhattan-Coffee-House
 - Site responsivo
 - Ferramenta Js
 
-Deploy: https://louzadarj.github.io/Cafeteria/
+Deploy: https://mtlouzada.github.io/Cafeteria/
