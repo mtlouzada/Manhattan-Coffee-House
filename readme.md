@@ -1,5 +1,7 @@
 Cafeteria Manhattan-Coffee-House
 
+Status: Concluído
+
 - Efeito parallax
 - Site responsivo
 - Ferramenta Js
