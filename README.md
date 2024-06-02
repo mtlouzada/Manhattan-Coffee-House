@@ -17,15 +17,11 @@ That academic project was made for training CSS methods. Of the type:
 
 ### Build with:
 
-> HTML
-> 
-> CSS
-> 
-> JavaScript
+
 
 ### Purpose of the project:
 
-Manhattan Coffee House is a project by [DevMedia](https://www.devmedia.com.br/) curse, where the challenge is, the student uses what he has learned on the curse and uses for created a website for a imaginare coffe shop. That project don´t need a responsive form and js tool, but a challenge me made that e learn so much during this project. I hope in furute into a better design and conected with a back-end aplication.
+Manhattan coffee House is a [DevMedia](https://www.devmedia.com.br/) course project, where your challenge is to create a website for a fictitious coffee shop. It is worth remembering that in this project it was not necessary to create the responsive part and use a JS tool, I did it by my own choice, to challenge myself and learn more about it.
 
 ### How to Contribute? 🚀
 
