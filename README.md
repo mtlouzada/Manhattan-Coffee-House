@@ -43,4 +43,4 @@ This project is under [MIT](https://github.com/mtlouzada/Cafeteria/blob/main/LIC
 
 ### Deploy
 
-🔗Link: https://mtlouzada.github.io/Cafeteria/
+🔗Link: https://mtlouzada.github.io/Manhattan-Coffee-House/
