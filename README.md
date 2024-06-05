@@ -23,7 +23,7 @@ That academic project was made for training CSS methods. Of the type:
 
 Manhattan coffee House is a [DevMedia](https://www.devmedia.com.br/) course project, where your challenge is to create a website for a fictitious coffee shop. It is worth remembering that in this project it was not necessary to create the responsive part and use a JS tool, I did it by my own choice, to challenge myself and learn more about it.
 
-### How to Contribute? 🚀
+### How to Contribute? 📫
 
 If you want to contribute, clone this repo, create your work branch and get your hands dirty!
 
@@ -41,6 +41,6 @@ At the end, open a Pull Request explaining the problem solved or feature made, i
 
 This project is under [MIT](https://github.com/mtlouzada/Cafeteria/blob/main/LICENSE) license
 
-### Deploy
+### Deploy:
 
 🔗Link: https://mtlouzada.github.io/Manhattan-Coffee-House/
