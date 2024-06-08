@@ -41,6 +41,8 @@ At the end, open a Pull Request explaining the problem solved or feature made, i
 
 This project is under [MIT](https://github.com/mtlouzada/Cafeteria/blob/main/LICENSE) license
 
-### Deploy:
+### Developed by 🧑🏻‍💻
+#### Matheus Louzada [LinkedIn](https://www.linkedin.com/in/matheus-louzadaa)
 
+### Deploy ❇️
 🔗Link: https://mtlouzada.github.io/Manhattan-Coffee-House/
