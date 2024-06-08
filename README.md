@@ -45,4 +45,4 @@ This project is under [MIT](https://github.com/mtlouzada/Cafeteria/blob/main/LIC
 #### Matheus Louzada [LinkedIn](https://www.linkedin.com/in/matheus-louzadaa)
 
 ### Deploy ❇️
-🔗Link: https://mtlouzada.github.io/Manhattan-Coffee-House/
+🔗Link: [Manhattan Coffee House](https://mtlouzada.github.io/Manhattan-Coffee-House/)
