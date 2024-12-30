@@ -11,7 +11,6 @@ function App() {
 
   return (
     <>
-      <body>
         <header id="header">
           <div className="container menu">
             <a className="botao-home" onClick={() => scrollPage('banner')}>
@@ -171,7 +170,6 @@ function App() {
           <p>Desenvolvido por <span>Matheus Louzada</span></p>
         </footer>
         <script src="./scroll.js"></script>
-      </body>
     </>
   )
 }
